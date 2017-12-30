@@ -1,0 +1,19 @@
+user.network.find(name:'oleg')
+network belongs_to user -> each user has one network with many 'friends'
+many networks to many users.
+
+User.networks.find()
+
+belongs_to :friends or public users
+
+user.friends ->access tags
+
+user has network -> request connection
+  - add message to connect request
+  - can send message
+  - can request collaboration
+
+user has followers -> can delete/block follower
+  - follow posts
+
+user2 clicks on user1 profile. wants to collaborate. has to 'connect' first
